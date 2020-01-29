@@ -1,0 +1,7 @@
+*Overview*
+
+Iter command program yields one command at a time along with other metadata. This includes line number, command start line, and command number. This program is designed to ignore comments found in a script. 
+
+*Bug found:* Commented lines are also itered along with commands when they should not be.
+
+Tests can be executed with this command: `make tests`
